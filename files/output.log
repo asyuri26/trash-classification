@@ -1,0 +1,61 @@
+Found cached dataset imagefolder (C:/Users/Muhammad Asyarie/.cache/huggingface/datasets/garythung___imagefolder/garythung--trashnet-9661a209e95116dc/0.0.0/37fbb85cc714a338bea574ac6c7d0b5be5aff46c1862c1989b20e0771199e93f)
+[34m[1mwandb[0m: [33mWARNING[0m WandbCallback is deprecated and will be removed in a future release. Please use the WandbMetricsLogger, WandbModelCheckpoint, and WandbEvalCallback callbacks instead. See https://docs.wandb.ai/guides/integrations/keras for more information.
+[34m[1mwandb[0m: [33mWARNING[0m The save_model argument by default saves the model in the HDF5 format that cannot save custom objects like subclassed models and custom layers. This behavior will be deprecated in a future release in favor of the SavedModel format. Meanwhile, the HDF5 model is saved as W&B files and the SavedModel as W&B Artifacts.
+Epoch 1/10
+126/126 [==============================] - ETA: 0s - loss: 1.2105 - accuracy: 0.5355INFO:tensorflow:Assets written to: d:\Kode python\trash_classification\wandb\run-20241028_143626-cgh31nxi\files\model-best\assets
+WARNING:absl:Found untraced functions such as _update_step_xla, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 121). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: d:\Kode python\trash_classification\wandb\run-20241028_143626-cgh31nxi\files\model-best\assets
+[34m[1mwandb[0m: Adding directory to artifact (d:\Kode python\trash_classification\wandb\run-20241028_143626-cgh31nxi\files\model-best)... Done. 0.1s
+126/126 [==============================] - 490s 4s/step - loss: 1.2105 - accuracy: 0.5355 - val_loss: 0.7337 - val_accuracy: 0.7379
+Epoch 2/10
+126/126 [==============================] - ETA: 0s - loss: 0.8189 - accuracy: 0.6884INFO:tensorflow:Assets written to: d:\Kode python\trash_classification\wandb\run-20241028_143626-cgh31nxi\files\model-best\assets
+WARNING:absl:Found untraced functions such as _update_step_xla, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 121). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: d:\Kode python\trash_classification\wandb\run-20241028_143626-cgh31nxi\files\model-best\assets
+[34m[1mwandb[0m: Adding directory to artifact (d:\Kode python\trash_classification\wandb\run-20241028_143626-cgh31nxi\files\model-best)... Done. 0.1s
+126/126 [==============================] - 464s 4s/step - loss: 0.8189 - accuracy: 0.6884 - val_loss: 0.5773 - val_accuracy: 0.7994
+Epoch 3/10
+126/126 [==============================] - ETA: 0s - loss: 0.7127 - accuracy: 0.7372INFO:tensorflow:Assets written to: d:\Kode python\trash_classification\wandb\run-20241028_143626-cgh31nxi\files\model-best\assets
+WARNING:absl:Found untraced functions such as _update_step_xla, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 121). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: d:\Kode python\trash_classification\wandb\run-20241028_143626-cgh31nxi\files\model-best\assets
+[34m[1mwandb[0m: Adding directory to artifact (d:\Kode python\trash_classification\wandb\run-20241028_143626-cgh31nxi\files\model-best)... Done. 0.1s
+126/126 [==============================] - 582s 5s/step - loss: 0.7127 - accuracy: 0.7372 - val_loss: 0.5416 - val_accuracy: 0.8175
+Epoch 4/10
+126/126 [==============================] - ETA: 0s - loss: 0.6274 - accuracy: 0.7744INFO:tensorflow:Assets written to: d:\Kode python\trash_classification\wandb\run-20241028_143626-cgh31nxi\files\model-best\assets
+WARNING:absl:Found untraced functions such as _update_step_xla, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 121). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: d:\Kode python\trash_classification\wandb\run-20241028_143626-cgh31nxi\files\model-best\assets
+[34m[1mwandb[0m: Adding directory to artifact (d:\Kode python\trash_classification\wandb\run-20241028_143626-cgh31nxi\files\model-best)... Done. 0.1s
+126/126 [==============================] - 626s 5s/step - loss: 0.6274 - accuracy: 0.7744 - val_loss: 0.4868 - val_accuracy: 0.8216
+Epoch 5/10
+126/126 [==============================] - ETA: 0s - loss: 0.5857 - accuracy: 0.7881INFO:tensorflow:Assets written to: d:\Kode python\trash_classification\wandb\run-20241028_143626-cgh31nxi\files\model-best\assets
+WARNING:absl:Found untraced functions such as _update_step_xla, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 121). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: d:\Kode python\trash_classification\wandb\run-20241028_143626-cgh31nxi\files\model-best\assets
+[34m[1mwandb[0m: Adding directory to artifact (d:\Kode python\trash_classification\wandb\run-20241028_143626-cgh31nxi\files\model-best)... Done. 0.1s
+126/126 [==============================] - 746s 6s/step - loss: 0.5857 - accuracy: 0.7881 - val_loss: 0.4418 - val_accuracy: 0.8387
+Epoch 6/10
+126/126 [==============================] - ETA: 0s - loss: 0.5259 - accuracy: 0.8045INFO:tensorflow:Assets written to: d:\Kode python\trash_classification\wandb\run-20241028_143626-cgh31nxi\files\model-best\assets
+WARNING:absl:Found untraced functions such as _update_step_xla, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 121). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: d:\Kode python\trash_classification\wandb\run-20241028_143626-cgh31nxi\files\model-best\assets
+[34m[1mwandb[0m: Adding directory to artifact (d:\Kode python\trash_classification\wandb\run-20241028_143626-cgh31nxi\files\model-best)... Done. 0.1s
+126/126 [==============================] - 708s 6s/step - loss: 0.5259 - accuracy: 0.8045 - val_loss: 0.4279 - val_accuracy: 0.8528
+Epoch 7/10
+126/126 [==============================] - 686s 5s/step - loss: 0.5002 - accuracy: 0.8163 - val_loss: 0.4325 - val_accuracy: 0.8417
+Epoch 8/10
+126/126 [==============================] - ETA: 0s - loss: 0.4874 - accuracy: 0.8255INFO:tensorflow:Assets written to: d:\Kode python\trash_classification\wandb\run-20241028_143626-cgh31nxi\files\model-best\assets
+WARNING:absl:Found untraced functions such as _update_step_xla, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 121). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: d:\Kode python\trash_classification\wandb\run-20241028_143626-cgh31nxi\files\model-best\assets
+[34m[1mwandb[0m: Adding directory to artifact (d:\Kode python\trash_classification\wandb\run-20241028_143626-cgh31nxi\files\model-best)... Done. 0.2s
+126/126 [==============================] - 817s 7s/step - loss: 0.4874 - accuracy: 0.8255 - val_loss: 0.4182 - val_accuracy: 0.8508
+Epoch 9/10
+126/126 [==============================] - ETA: 0s - loss: 0.4432 - accuracy: 0.8342INFO:tensorflow:Assets written to: d:\Kode python\trash_classification\wandb\run-20241028_143626-cgh31nxi\files\model-best\assets
+WARNING:absl:Found untraced functions such as _update_step_xla, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 121). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: d:\Kode python\trash_classification\wandb\run-20241028_143626-cgh31nxi\files\model-best\assets
+[34m[1mwandb[0m: Adding directory to artifact (d:\Kode python\trash_classification\wandb\run-20241028_143626-cgh31nxi\files\model-best)... Done. 0.1s
+126/126 [==============================] - 813s 6s/step - loss: 0.4432 - accuracy: 0.8342 - val_loss: 0.4021 - val_accuracy: 0.8548
+Epoch 10/10
+126/126 [==============================] - ETA: 0s - loss: 0.4426 - accuracy: 0.8355INFO:tensorflow:Assets written to: d:\Kode python\trash_classification\wandb\run-20241028_143626-cgh31nxi\files\model-best\assets
+WARNING:absl:Found untraced functions such as _update_step_xla, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 121). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: d:\Kode python\trash_classification\wandb\run-20241028_143626-cgh31nxi\files\model-best\assets
+[34m[1mwandb[0m: Adding directory to artifact (d:\Kode python\trash_classification\wandb\run-20241028_143626-cgh31nxi\files\model-best)... Done. 0.1s
+126/126 [==============================] - 859s 7s/step - loss: 0.4426 - accuracy: 0.8355 - val_loss: 0.3682 - val_accuracy: 0.8669
+31/31 [==============================] - 151s 5s/step - loss: 0.3682 - accuracy: 0.8669
+Validation Accuracy: 0.8669354915618896
