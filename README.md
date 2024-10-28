@@ -28,3 +28,5 @@ This project is an implementation of an image classification model for the Trash
 *Additional Notes*
 - This project uses the datasets API and requires an internet connection to download the garythung/trashnet dataset.
 - Adjust parameters like test_size and model configuration as needed for specific experiment requirements.
+
+Model h5 : https://its.id/m/trash_classification
